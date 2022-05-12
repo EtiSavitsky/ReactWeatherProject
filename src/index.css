@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e4eff1 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.city-card {
+  direction: rtl;
+  text-align: right;
+  display: inline-block;
+  background-color: #ffff;
+  padding: 3.5%;
+  margin-right: 8%;
+  margin-top: 5%;
+  white-space: nowrap;
+}
+
+.temp {
+  direction: ltr;
+}
+
+.temp-details {
+  padding: 0 !important;
+  margin-right: 0;
+}
+
+.first-row h1,
+.first-row img {
+  display: inline;
+}
+
+img {
+  float: left;
 }
